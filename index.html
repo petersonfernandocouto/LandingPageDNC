@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./PastaCSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+
+    <title>Landing Page</title>
+</head>
+<body>
+   
+    <div class="Header">
+
+        <h1 class="titleHeader">Tradição em projetos de arquitetura.</h1>
+        <p class="textHeader">Arquitetura residencial e comercial.</p>
+
+    </div>
+
+    <div class="graphic">
+
+        <div class="service">
+            <h3>850</h3>
+            <p class="textGraphic">empreendimentos construídos</p>
+        </div>
+
+        <div>
+            <h3>40</h3>
+            <p class="textGraphic">anos de mercado e experiência </p>
+        </div>
+
+        <div>
+            <h3>2,000,000</h3>
+            <p class="textGraphic">m² em projetos construídos</p>
+        </div>
+
+    </div> 
+
+
+    <div class="information">
+
+        <div class="Info">
+
+            <h3 class="textinformation">Arquitetos com História e Experiência.</h3>
+
+            <p class="textGraphic">Nós realizamos desde 2002 projetos e gerenciamento de obras. 
+                <br>Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br> como principal proposta transformar em realidade os sonhos de <br> seus clientes, criando projetos personalizados, unindo a tradição <br> e a modernidade em nossos projetos.</p>
+
+        </div>
+
+        <div>
+
+            <img id="IMG" onclick="clickIMG()" class="IMG" src="./img/image.svg">
+
+            <img id="img1" onclick="clickimg1()" class="img1" src="./img/01.jpg">
+
+            <img id="img2" onclick="clickimg2()" class="img2" src="./img/02.jpg">
+
+            <img id="img3" onclick="clickimg3()" class="img3" src="./img/03.jpg">
+
+        </div>
+
+
+    </div>
+
+    <div class="Footer">
+
+        <form action="https://api.sheetmonkey.io/form/nB1XGnbMTBQL5bzuBmpqYg" method="post">
+
+            <h3 class="textFooter">Conheça mais sobre nossos serviços:</h3>
+
+            <input type="text" name="Name" placeholder="Nome" required>
+            <br>
+            <input type="email" name="Email" placeholder="Email" required>
+            <br>
+            
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+            <button type="submit" class="button">Fale Conosco</button>
+        
+        </form>
+
+    </div>
+
+    
+  
+ <script src="./JavaScript/functionality.js"></script>
+
+</body>
+</html>
